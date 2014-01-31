@@ -38,6 +38,7 @@ h2 {
     line-height: .1rem;
     color: #222;
     text-shadow: 0px 1px 5px #963; 
+    margin-top: 2.2rem;
 }
 
 h3 {
@@ -70,7 +71,8 @@ p {
 
 ol {
     background-color: #f5eeb5;
-    line-height: 1.5rem
+    line-height: 1.5rem;
+    margin-bottom: 2.2rem;
 }
 
 li:nth-child(odd) {

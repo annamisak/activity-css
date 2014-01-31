@@ -1,4 +1,4 @@
-/* CSS Document */
+@charset "utf-8";
 
 html {
     font-family: Arial, Helvetica, sans-serif;
@@ -7,6 +7,21 @@ html {
 body {
     background-color: #ffc;
     font-family: "Century Gothic", Arial, sans-serif;
+}
+
+a:link {
+    color: #F93;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #F93;
+}
+
+a:hover {
+    color: #F93;
+    text-decoration: none;
+    border-bottom: 1px dashed #F93;
 }
 
 h1 {
@@ -26,7 +41,7 @@ h2 {
 }
 
 h3 {
-    font-family: Century Gothic, Arial, sans-serif;
+    font-family: "Century Gothic", Arial, sans-serif;
     font-weight: normal;
     font-size: 1rem;
     line-height: 1rem;
@@ -48,14 +63,6 @@ hr + hr {
     border: dashed 1px #f93;
 }
 
-ol + hr {
-    border: dashed 1px #f93;
-}
-
-ol + hr + hr {
-    border: solid 2px #f93;
-}
-
 p {
     font-size: .9rem;
     line-height: 1.5rem;
@@ -69,6 +76,13 @@ ol {
 li:nth-child(odd) {
     color: #000;
 }
+
 li:nth-child(even) {
     color: #f93;
+}
+
+.taylor {
+    font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
+    font-size: 1.5rem;
+    font-style: italic;
 }
